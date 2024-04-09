@@ -1,6 +1,14 @@
 ----Making some adjustments--
 Alter table Portfolio..CovidVaccinations
 Alter Column people_fully_vaccinated float
+Alter table Portfolio..CovidDeaths
+Alter Column total_cases float
+Alter table Portfolio..CovidDeaths
+Alter Column total_deaths float
+Alter table Portfolio..CovidDeaths
+Alter Column new_deaths float
+Alter table Portfolio..CovidDeaths
+Alter Column new_cases float
 
 --Tables that we are using--
 
